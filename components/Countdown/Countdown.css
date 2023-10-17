@@ -1,0 +1,62 @@
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+.timerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 8px;
+    
+}
+
+.time{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.buttons{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+}
+
+button:hover{
+    background-color: rgb(73, 15, 15);
+}
+
+input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.setting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeunit{
+    font-size: 20px;
+    font-weight: bold;
+}
+
